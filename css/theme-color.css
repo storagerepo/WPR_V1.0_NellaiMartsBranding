@@ -1,0 +1,56 @@
+/* Template Color Default #28a745 = rgba(32, 184, 6, */
+
+/* TEXT COLOR */
+#carousel-slider.slide .content h2,
+.header-navigation.stricky-fixed ul.navigation-box > li.active > a,
+.header-navigation.stricky-fixed ul.navigation-box > li.current > a,
+.header-navigation.stricky-fixed ul.navigation-box > li > a:active,
+.header-navigation.stricky-fixed ul.navigation-box > li > a:focus,
+.header-navigation.stricky-fixed ul.navigation-box > li:hover > a,
+.header-navigation ul.navigation-box > li.active > a,
+.header-navigation ul.navigation-box > li.current > a,
+.header-navigation ul.navigation-box > li > a:active,
+.header-navigation ul.navigation-box > li > a:focus,
+.header-navigation ul.navigation-box > li:hover > a,
+ul li.active span,
+.site-qoute .inner h3 span,
+.site-footer .footer-widget.about-widget .social a,
+.footer-copyright .right-social a,
+.site-footer .footer-widget.contact-widget p i,
+.btn-white,
+.text-thm {
+  color: #28a745 !important;
+}
+
+/* TEXT HOVER COLOR */
+.site-footer .footer-widget ul.services-list li a:hover,
+.single-why-choose-us:hover .text-box h3,
+.our_services:hover .title {
+	color: #28a745 !important;
+}
+nav.navbar.bootsnav.light-red li.dropdown ul.dropdown-menu > li > a:hover {
+	color: #28a745;
+}
+
+/* BACKGROUND COLOR */
+.header-home-two .header-top .select-box,
+.home-header .header-navigation.stricky-fixed,
+.header-navigation .theme-container .right-side-box a.rqa-btn,
+.header-navigation .theme-container .right-side-box form.search-form,
+.section-title .line,
+#carousel-slider .carousel-control,
+#carousel-slider.slide .content a.banner-btn,
+#carousel-slider .custom-navigation li,
+.scroll-to-top,
+.bgc-thm {
+	background-color: #28a745 !important;
+}
+li.ui-timepicker-selected {
+	background-color: #28a745;
+}
+
+/* BUTTON TEMPALTE COLOR */
+.btn-thm {
+  background-color: #28a745;
+  border-color: #28a745;
+}
