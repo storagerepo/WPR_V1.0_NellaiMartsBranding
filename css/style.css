@@ -1209,8 +1209,11 @@ body {
   * 7. site qoute styles 
   ***************************/
   .site-qoute {
-    background: #28a745 url(../images/mission-catalogue.png) center center no-repeat fixed;
-    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #28a745;
+    background-image: url(../images/mission-catalogue.png);
   }
   .site-qoute .inner {
     padding: 100px 0;
@@ -1447,4 +1450,8 @@ body {
 
 .otherpage-content .btn-outline-reg {
   margin-top: 1.75rem;
+}
+
+.classic_title {
+  font-family:'Leckerli One', Helvetica, sans-serif;font-weight: 400;
 }

@@ -58,6 +58,14 @@
     .bgi1 {
         background-image: none;
     }
+
+    #carousel-slider.home-slider .carousel-inner .item {
+        min-height: 570px;
+    }
+
+    .features_service {
+        margin-top: -200px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -107,7 +115,7 @@
         padding-top: 0;
     }
     .features_service{
-        margin-top: -240px;
+        margin-top: -180px;
     }
     .our_services{
         -webkit-box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.05);
@@ -126,8 +134,15 @@
     }
     #carousel-slider.home-slider .carousel-inner .item {
         width: 100%;
-        min-height: 550px;
-        background-position: bottom center
+        min-height: 450px;
+    }
+    #carousel-slider.slide .content p {
+        width: 55%;
+        line-height: 28px;
+    }
+    #carousel-slider .carousel-caption .theme-container .box .content {
+        padding: 0 60px;
+        margin-top: 0;
     }
     header.header.home-header a.logo{
         display: block;
@@ -486,29 +501,45 @@
     }
 
     #carousel-slider.slide .content h2 {
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 22px;
+        line-height: 25px;
     }
     #carousel-slider.slide .content p {
         width: 90%;
         margin-top: 10px;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 11px;
+        line-height: 15px;
     }
     .blog-details-page .single-comment-box{
         padding: 40px 20px;
     }
     #carousel-slider.home-slider .carousel-inner .item {
         width: 100%;
-        min-height: 350px;
-        background-position: bottom center
+        min-height: 188px;
+        background-position: center center;
+        background-size: cover;
     }
+    #carousel-slider .carousel-caption:before {
+        background-color: rgba(0, 0, 0, 0.6);
+      }
     #carousel-slider .carousel-caption .theme-container .box.valign-middle {
         vertical-align: unset;
         padding-top: 30px;
     }
     .our_services .service-content {
         min-height: 285px;
+    }
+
+    .features_service {
+        margin-top: -140px;
+    }
+
+    .footer-copyright [class*=pull-] {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-copyright [class*=pull-right] {
+        margin-top: 10px;
     }
 }
 
@@ -561,7 +592,7 @@
     }
 
     #carousel-slider.slide .content h2 span.text-bg {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .section-title h3 {
@@ -625,9 +656,7 @@
 }
 @media (max-width: 414px) {
     #carousel-slider.slide .content h2{
-        font-size: 30px;
-        line-height: 1em;
-        margin-top: 15px;
+        margin-top: 35px;
     }
     #carousel-slider .carousel-caption .theme-container .box .content{
         padding: 0 25px;
