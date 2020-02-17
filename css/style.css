@@ -1391,6 +1391,10 @@ body {
     background-image: url(../images/banner_4.png);
     background-position: center center;
   }
+  .slider-5 {
+    background-image: url(../images/banner_5.png);
+    background-position: center center;
+  }
   #carousel-slider .slider-1 .carousel-caption:before {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
